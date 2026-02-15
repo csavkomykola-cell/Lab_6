@@ -15,7 +15,6 @@ namespace Lab6
     class Car : Vehicle
     {
         public Car(string brand, int speed) : base(brand, speed) { }
-
         public override void Move()
         {
             Console.WriteLine($"Car {brand} drives at {speed} km/h");
@@ -23,7 +22,7 @@ namespace Lab6
     }
     class Bicycle : Vehicle
     {
-        public Bicycle(string brand, int speed) : base(brand, speed) { } 
+        public Bicycle(string brand, int speed) : base(brand, speed) { }
         public override void Move()
         {
             Console.WriteLine($"Bicycle {brand} rides at {speed} km/h");
@@ -32,7 +31,6 @@ namespace Lab6
     class Airplane : Vehicle
     {
         public Airplane(string brand, int speed) : base(brand, speed) { }
-
         public override void Move()
         {
             Console.WriteLine($"Airplane {brand} flies at {speed} km/h");
@@ -42,12 +40,16 @@ namespace Lab6
     {
         static void Main(string[] args)
         {
-            Car c = new Car("Ferrari", 150);
-            Bicycle b = new Bicycle("Ukraine", 30);
-            Airplane a = new Airplane("Boeing", 900);
-            c.Move();
-            b.Move();
-            a.Move();
+            Vehicle[] list = new Vehicle[]
+            {
+                new Car("Ferrari", 150),
+                new Bicycle("Ukraine", 30),
+                new Airplane("Boeing", 900)
+            };
+            foreach (Vehicle v in list)
+            {
+                v.Move();
+            }
         }
     }
 }
