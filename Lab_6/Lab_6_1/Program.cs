@@ -1,6 +1,10 @@
 ﻿using System;
 namespace Lab6
 {
+    interface Refuelable
+    {
+        void Refill();
+    }
     abstract class Vehicle
     {
         protected string brand;
@@ -12,12 +16,16 @@ namespace Lab6
         }
         public abstract void Move();
     }
-    class Car : Vehicle
+    class Car : Vehicle, Refuelable
     {
         public Car(string brand, int speed) : base(brand, speed) { }
         public override void Move()
         {
             Console.WriteLine($"Car {brand} drives at {speed} km/h");
+        }
+        public void Refill()
+        {
+            Console.WriteLine($"Car {brand} is refueling");
         }
     }
     class Bicycle : Vehicle
@@ -28,12 +36,16 @@ namespace Lab6
             Console.WriteLine($"Bicycle {brand} rides at {speed} km/h");
         }
     }
-    class Airplane : Vehicle
+    class Airplane : Vehicle, Refuelable
     {
         public Airplane(string brand, int speed) : base(brand, speed) { }
         public override void Move()
         {
             Console.WriteLine($"Airplane {brand} flies at {speed} km/h");
+        }
+        public void Refill()
+        {
+            Console.WriteLine($"Airplane {brand} is refueling");
         }
     }
     class Program
@@ -49,6 +61,10 @@ namespace Lab6
             foreach (Vehicle v in list)
             {
                 v.Move();
+                if (v is Refuelable r)
+                {
+                    r.Refill();
+                }
             }
         }
     }
