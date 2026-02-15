@@ -1,0 +1,15 @@
+D:\College\OPAM\Lab_6_3\bin\Debug\net9.0\lab-polymorphism.exe
+D:\College\OPAM\Lab_6_3\bin\Debug\net9.0\lab-polymorphism.deps.json
+D:\College\OPAM\Lab_6_3\bin\Debug\net9.0\lab-polymorphism.runtimeconfig.json
+D:\College\OPAM\Lab_6_3\bin\Debug\net9.0\lab-polymorphism.dll
+D:\College\OPAM\Lab_6_3\bin\Debug\net9.0\lab-polymorphism.pdb
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.AssemblyInfoInputs.cache
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.AssemblyInfo.cs
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.csproj.CoreCompileInputs.cache
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.sourcelink.json
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.dll
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\refint\lab-polymorphism.dll
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.pdb
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\lab-polymorphism.genruntimeconfig.cache
+D:\College\OPAM\Lab_6_3\obj\Debug\net9.0\ref\lab-polymorphism.dll
